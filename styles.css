@@ -5,8 +5,6 @@ body {
   margin: 0;
 }
 .panel{
-  width:90%;
-  max-width:700px;
   border-top-left-radius:3px;
   border-top-right-radius:3px;
   border-bottom-right-radius:3px;
@@ -15,12 +13,7 @@ body {
   padding-right:20px;
   padding-bottom:30px;
   padding-left:20px;
-  margin-top:150px;
-  margin-right:auto;
-  margin-bottom:0px;
-  margin-left:auto;
   background-color:#04041d;
-  box-shadow:rgba(0, 0, 0, 0.25) 0px 3px 10px 0px;
   color:rgba(255, 255, 255, 0.75);
   font-variant-caps:normal;
   line-height:normal;
@@ -36,6 +29,9 @@ body {
   font-feature-settings:normal;
   font-variation-settings:normal;
   font-weight:100;
+  display:block;
+  margin:0 auto 0px auto;
+  position:static;
 }
 .logo path{
   pointer-events:none;
@@ -47,17 +43,16 @@ body {
 .big-title{
   text-align:center;
   font-size:3.5rem;
-  margin-top:15px;
-  margin-right:0px;
-  margin-bottom:15px;
-  margin-left:0px;
   float:none;
   display:flex;
   position:static;
   flex-direction:row;
   align-content:space-between;
   flex-wrap:wrap;
-  justify-content:space-between;
+  justify-content:center;
+  align-items:flex-start;
+  padding:0px 0px 0px 0px;
+  margin:15px 0px 15px 0px;
 }
 .description{
   text-align:justify;
@@ -67,17 +62,12 @@ body {
 #ibxt{
   background-color:#01010c;
 }
-#ikkul{
-  padding-top:50px;
-  padding-bottom:50px;
-  text-align:center;
-}
 #iw7i{
   display:block;
   float:right;
   position:static;
   align-self:center;
-  flex-grow:100;
+  font-family:Georgia, serif;
 }
 #i6vjl{
   padding-top:50px;
@@ -88,12 +78,19 @@ body {
   background-position:center center;
   background-attachment:scroll;
   background-size:contain;
-  margin:0px 0px 0 0px;
-  float:left;
+  margin:0px 20px 0px 0px;
+  float:none;
   display:flex;
   position:static;
   flex-wrap:wrap;
   width:100px;
   height:100px;
   flex-direction:row;
+}
+#it51c{
+  display:block;
+  float:right;
+  position:static;
+  align-self:center;
+  font-family:Georgia, serif;
 }
